@@ -1,0 +1,78 @@
+
+.counter{
+    position:absolute;
+    width: 200px;
+    height: 30px;
+    right: 0px;
+    background-color: rgb(246, 58, 183);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.background{
+    position:relative;
+    width: 720px;
+    height: 1080px;
+    border: 10px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    /*background-color: aquamarine;*/
+}
+
+.answerA, .answerB, .answerC, .answerD {
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.questions{
+    padding: 10 px;
+    margin: 50px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+.answerA:hover  {
+    background-color: green;
+    cursor: pointer;
+
+
+    
+  }
+  .answerB:hover  {
+    background-color: green;
+    cursor: pointer;
+    
+  }
+  .answerC:hover  {
+    background-color: green;
+    cursor: pointer;
+    
+  }
+  .answerD:hover  {
+    background-color: green;
+    cursor: pointer;
+    
+  }
+
+  button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(164, 163, 168);
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+  }
